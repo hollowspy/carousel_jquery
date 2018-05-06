@@ -1,0 +1,33 @@
+.slider {
+    margin: 10px 0;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider li {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+img {
+    width: 500px;
+    height: 490px;
+    border:1px black solid;
+}
+
+#prev{
+    position:absolute;
+    top:250px;
+    left:20px;
+}
+
+#next{
+    position:absolute;
+    top:250px;
+    left:450px;
+}
